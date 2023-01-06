@@ -10,7 +10,7 @@ public class Main {
     Scanner scan = new Scanner(System.in);
 
         try {
-            System.out.println ("Answer is :" + calc(scan.nextLine()));
+            System.out.println (calc(scan.nextLine()));
         }
         catch (FileNotFoundException e){
             System.out.println(e.getMessage());
